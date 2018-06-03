@@ -56,11 +56,20 @@ public class CadastroActivity extends AppCompatActivity {
                 String senha = tSenha.getEditText().getText().toString();
                 String csenha = tCSenha.getEditText().getText().toString();
 
-                if (senha.equals(csenha)) {
-                    novoUsuario(nome, numero, email, senha);
-                } else {
-                    txtAlert.setText("As senhas não condizem! Por favor, reformule as senhas.");
+                if(senha != "" && csenha != "") {
+                    if (senha.length() > 8 && csenha.length() > 8) {
+                        if (senha.equals(csenha)) {
+                            novoUsuario(nome, numero, email, senha);
+                        } else {
+                            txtAlert.setText("As senhas não condizem! Por favor, reformule-as.");
+                        }
+                    } else {
+                        txtAlert.setText("Senha fraca! é necessario ter ao menos 8 digitos");
+                    }
+                } else{
+                    txtAlert.setText("É necessario preencher os dois campos de senha");
                 }
+
             }
         });
     }

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         //Toolbar
         mToolbar = findViewById(R.id.main_page_toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle("Main");
+        getSupportActionBar().setTitle("Bus Location");
     }
 
     public void onStart() {
@@ -53,9 +54,13 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         super.onOptionsItemSelected(item);
 
-        if (item.getItemId() == R.id.main_menu_sair)
+        if (item.getItemId() == R.id.main_menu_config) {
+            Toast.makeText(getApplicationContext(), "Configura ainda não :(", Toast.LENGTH_SHORT).show();
+        }
+        else if (item.getItemId() == R.id.main_menu_sair) {
             FirebaseAuth.getInstance().signOut();
             sendToStart();
+        }
         return true;
     }
 }

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#673bb7</color>
-    <color name="colorPrimaryDark">#512da7</color>
+    <color name="colorPrimary">#FFEE8B2E</color>
+    <color name="colorPrimaryDark">#b36822</color>
     <color name="colorAccent">#ff5521</color>
 
     <color name="logo">#FFEE8B2E</color>
     <color name="branco">#ffffff</color>
     <color name="vermelho">#ff0000</color>
+    <color name="white">#fff</color>
+
+    <color name="letraCinza">#FF9A9A9A</color>
+
+    <color name="facebook">#485A96</color>
 </resources>

@@ -2,8 +2,6 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="@string/menutitle_userconfig" />
-    <item
-        android:id="@+id/main_menu_sair"
-        android:title="@string/menutitle_mainmenu" />
+    <item android:id="@+id/main_menu_config" android:title="@string/menutitle_userconfig" />
+    <item android:id="@+id/main_menu_sair" android:title="@string/menutitle_mainmenu" />
 </menu>

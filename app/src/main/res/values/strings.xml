@@ -9,7 +9,7 @@
     <string name="cadastro_txt_senha">Senha</string>
     <string name="cadastro_txt_csenha">Confirmar senha</string>
     <string name="cadastro_btn_cadastrar">Cadastrar</string>
-    <string name="cadastro_btn_facebook">Facebook</string>
+    <string name="cadastro_btn_facebook">Entre com o Facebook</string>
     <string name="menutitle_mainmenu">Sair</string>
     <string name="menutitle_userconfig">configurar conta</string>
 </resources>
