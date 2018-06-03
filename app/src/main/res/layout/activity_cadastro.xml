@@ -117,9 +117,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:paddingHorizontal="10dp"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
 
             <Button
                 android:id="@+id/reg_entrar"
@@ -127,17 +127,17 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/designer_layout_buttons"
                 android:drawableStart="@drawable/ic_mail_white_24dp"
+                android:foreground="?android:attr/selectableItemBackground"
                 android:padding="10dp"
                 android:text="@string/cadastro_btn_cadastrar"
-                android:textSize="15sp"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:textSize="15sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_marginVertical="10dp"
+                android:gravity="center"
                 android:text="Ou"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -146,14 +146,14 @@
                 android:id="@+id/reg_facebook"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/designer_layout_buttonsf"
                 android:drawableLeft="@drawable/ic_facebook_logo"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
                 android:paddingLeft="5dp"
                 android:text="@string/cadastro_btn_facebook"
-                android:textColor="@color/white"
-                android:layout_marginBottom="30dp"/>
+                android:textColor="@color/white" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
