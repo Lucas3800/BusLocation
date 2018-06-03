@@ -4,15 +4,127 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="15dp"
     tools:context=".CadastroActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_person_add_black_24dp"
+            app:civ_border_color="#000000"
+            android:layout_marginBottom="30dp"
+            app:civ_border_width="1dp" />
+
+        <TextView
+            android:id="@+id/reg_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/vermelho"
+            android:textSize="18sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/reg_nome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cadastro_txt_nome"
+                android:inputType="text|textPersonName"
+                android:textColorHint="@color/logo" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/reg_numero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cadastro_txt_numero"
+                android:inputType="phone"
+                android:textColorHint="@color/logo" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cadastro_txt_email"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/logo" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/reg_senha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cadastro_txt_senha"
+                android:inputType="textPassword"
+                android:textColorHint="@color/logo" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/reg_csenha"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cadastro_txt_csenha"
+                android:inputType="textPassword"
+                android:textColorHint="@color/logo" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/reg_entrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastro_btn_cadastrar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:text="Ou"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/reg_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastro_btn_facebook" />
+        </LinearLayout>
+    </LinearLayout>
 </ScrollView>

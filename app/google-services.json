@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "101108553257",
-    "firebase_url": "https://buslocation-44548.firebaseio.com",
-    "project_id": "buslocation-44548",
-    "storage_bucket": "buslocation-44548.appspot.com"
+    "project_number": "896823513881",
+    "firebase_url": "https://buslocation-1902.firebaseio.com",
+    "project_id": "buslocation-1902",
+    "storage_bucket": "buslocation-1902.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:101108553257:android:6eb70fec57aeff32",
+        "mobilesdk_app_id": "1:896823513881:android:6eb70fec57aeff32",
         "android_client_info": {
           "package_name": "br.com.buslocation.projeti.buslocation"
         }
       },
       "oauth_client": [
         {
-          "client_id": "101108553257-bqugb6g10ooneecqk07v6o16qf556h43.apps.googleusercontent.com",
+          "client_id": "896823513881-mgl0tmcfj6t2nmh88g0qcao8ac9vjasf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "br.com.buslocation.projeti.buslocation",
@@ -23,17 +23,17 @@
           }
         },
         {
-          "client_id": "101108553257-26dpk4ptkvlihjg5c6045gh8761s1mke.apps.googleusercontent.com",
+          "client_id": "896823513881-nub3injq14k3olimqsndq0oig3gubtvk.apps.googleusercontent.com",
           "client_type": 3
         },
         {
-          "client_id": "101108553257-26dpk4ptkvlihjg5c6045gh8761s1mke.apps.googleusercontent.com",
+          "client_id": "896823513881-nub3injq14k3olimqsndq0oig3gubtvk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA4__vLUMRnk2Ysf3wLwZh7Hai4z6i3Vw8"
+          "current_key": "AIzaSyDXszCQogxa4wYl6ToXfKjg24R4ZRf0CCU"
         }
       ],
       "services": {
@@ -44,7 +44,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "101108553257-26dpk4ptkvlihjg5c6045gh8761s1mke.apps.googleusercontent.com",
+              "client_id": "896823513881-nub3injq14k3olimqsndq0oig3gubtvk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
